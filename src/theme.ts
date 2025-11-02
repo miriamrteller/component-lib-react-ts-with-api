@@ -15,12 +15,14 @@ export const themeOptions: ThemeOptions = {
     fontFamily: 'Montserrat',
     h1: {
       fontSize: '4rem',
+      fontWeight: 800
     },
     h2: {
       fontSize: '3rem',
     },
     h3: {
       fontSize: '2rem',
+      fontWeight: 800
     },
     h4: {
       fontSize: '1.7rem',
@@ -28,12 +30,6 @@ export const themeOptions: ThemeOptions = {
     button: {
       fontSize: '0.8rem',
       fontStyle: 'capitalize',
-    },
-    bold: {
-      fontWeight: 800,
-    },
-    light: {
-      fontWeight: 200,
     },
   },
   spacing: 4,

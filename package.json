@@ -11,9 +11,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "nx": "^22.0.2",
@@ -26,11 +24,6 @@
     "@emotion/styled": "^11.14.1",
     "@eslint/js": "^9.38.0",
     "@mui/material": "^7.3.4",
-    "@storybook/addon-a11y": "^10.0.2",
-    "@storybook/addon-docs": "^10.0.2",
-    "@storybook/addon-onboarding": "^10.0.2",
-    "@storybook/addon-vitest": "^10.0.2",
-    "@storybook/react-vite": "^10.0.2",
     "@types/node": "^24.9.1",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
@@ -43,7 +36,6 @@
     "eslint-plugin-storybook": "^10.0.2",
     "globals": "^16.4.0",
     "playwright": "^1.56.1",
-    "storybook": "^10.0.2",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.46.2",
     "vite": "^7.1.12",
