@@ -5,7 +5,7 @@ export type CardProps = MuiCardProps & {};
 
 export const Card = (props: CardProps) => {
   return (
-    <MuiCard {...props} sx={{ padding: theme.spacing(1, 2) }}>
+    <MuiCard {...props} sx={{ padding: theme.spacing(4, 2) }}>
       {props.children}
     </MuiCard>
   );

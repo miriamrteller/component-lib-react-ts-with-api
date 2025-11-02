@@ -19,6 +19,8 @@ export default defineConfig({
     alias: {
       components: path.resolve(__dirname, './src/components'),
       theme: path.resolve(__dirname, './src/theme'),
+      hooks: path.resolve(__dirname, './src/hooks/*'),
+
     },
   },
   test: {

@@ -7,8 +7,8 @@ export type ButtonProps = MuiButtonProps & {};
 
 export const Button = (props: ButtonProps) => {
   return <MuiButton {...props} variant={props.variant || 'contained'} sx={{
-    textTransform: 'capitalize'; 
-  }} />;
+    textTransform: 'capitalize' 
+  }} />
 };
 
 export default Button;
