@@ -39,8 +39,6 @@ export const themeOptions: ThemeOptions = {
         root: {
           border: 0,
           borderRadius: 3,
-          boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
-          padding: '10px 30px',
         },
       },
     },
